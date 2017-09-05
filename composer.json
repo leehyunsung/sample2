@@ -1,0 +1,21 @@
+{
+    "name": "leehyunsung/sample2",
+    "description": "This is my first Composer package.",
+    "license": "MIT",
+    "keywords": ["sample"],
+    "authors": [
+        {
+            "name": "Hyunsung Lee",
+            "email": "0175854365@naver.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "FancyNameSpace\\Animal\\": "src"
+        }
+    }
+}
